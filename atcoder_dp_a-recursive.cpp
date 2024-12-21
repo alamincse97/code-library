@@ -30,6 +30,12 @@ int stone(int n){
     // 3. calculate answer from subproblems
 
     int ans1 = stone(n-1) + abs(h[n] - h[n-1]); 
+
+    // edge case / corner case
+    if(n == 2){
+        dp[n] = ans1;
+        return ans1;
+    } 
     int ans2 = stone(n-2) + abs(h[n] - h[n-2]);
     int ans = min(ans1, ans2);
 
