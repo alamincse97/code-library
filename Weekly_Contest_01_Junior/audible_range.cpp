@@ -1,4 +1,4 @@
-// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/AUDIBLE
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/SPECIALITY
 
 #include<bits/stdc++.h>
 
@@ -10,14 +10,17 @@ int main()
     cin >> t;
 
     while(t--){
-        int x;
-        cin >> x;
+        int x, y, z;
+        cin >> x >> y >> z;
 
-        if(x >= 67 && x <= 45000){
-            cout << "YES" << endl;
+        if(x >= y && x >= z){
+            cout << "Setter" << endl;
         }
-        else {
-            cout << "NO" << endl;
+        else if(y >= x && y >= z){
+            cout << "Tester" << endl;
+        }
+        else{
+            cout << "Editorialist" << endl;
         }
     }
     return 0;
