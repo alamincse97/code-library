@@ -5,7 +5,6 @@
 using namespace std;
 
 
-
 int main()
 {
     set<char>st {'a', 'e', 'i', 'o', 'u'};
