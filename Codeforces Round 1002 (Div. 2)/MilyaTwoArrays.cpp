@@ -1,41 +1,35 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+
 using namespace std;
 
-void solveCase(int n, vector<int>& a, vector<int>& b) {
-    set<int> setA(a.begin(), a.end());  
-    set<int> setB(b.begin(), b.end());  
-    
-    int distinctA = setA.size();
-    int distinctB = setB.size();
+int a[55], b[55];
 
-    if (distinctB == 1) {
-        cout << (distinctA >= 3 ? "YES" : "NO") << endl;
-        return;
+void solve(){
+    int n;
+    cin >> n;
+    set<int> sa, sb;
+
+    for(int i=1; i<=n; i++)cin >> a[i], sa.insert(a[i]);
+    for(int i=1; i<=n; i++)cin >> b[i], sb.insert(b[i]);
+
+    if(sa.size() + sb.size() < 4){
+        cout << "NO\n";
+    }else{
+        cout << "YES\n";
     }
-
-    if (distinctA == 1) {
-        cout << (distinctB >= 3 ? "YES" : "NO") << endl;
-        return;
-    }
-
-    cout << "YES" << endl;
 }
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+/*  freopen(input.txt, 'r', stdin);
+    freopen(output.txt, 'w', stdout); */
 
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a(n), b(n);
-        for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < n; i++) cin >> b[i];
+    int t; cin >> t;
+    while(t--){
+        solve();
+    }                                 
 
-        solveCase(n, a, b);
-    }
-
-    return 0;
+  return 0;
 }
