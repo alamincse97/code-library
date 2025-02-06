@@ -1,0 +1,1 @@
+{"name":"Local: boardMoves","url":"d:\\All Project\\code-library\\constructive algorithms\\boardMoves.cpp","tests":[{"id":1738847953423,"input":"3\n1\n5\n499993\n","output":"0\n40\n41664916690999888\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\constructive algorithms\\boardMoves.cpp","group":"local","local":true}
