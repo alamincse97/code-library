@@ -37,11 +37,10 @@ int main(){
             int tp1 = u, tp2 = n - u;
 
             if( tp2 > 2 && is_prime[tp2] == 1){
-                if(abs (tp1 - tp2 ) > dif ){
-                    dif = abs (tp1 - tp2);
-                    p1 = tp1;
-                    p2 = tp2;
-                }
+                dif = abs(tp1 - tp2);
+                p1 = tp1;
+                p2 = tp2;
+                break;
             }
         }
         if (p1 == -1) cout << "Goldbach's conjecture is wrong" << endl;
