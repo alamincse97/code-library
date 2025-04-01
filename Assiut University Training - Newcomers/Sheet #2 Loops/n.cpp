@@ -8,18 +8,18 @@ int main()
     cin.tie(NULL);
 /*  freopen(input.txt, 'r', stdin);
     freopen(output.txt, 'w', stdout); */
-    string s;
-    cin >> s;
+    char s;
     int n;
-    cin >> n;
+    cin >> s >> n;
 
-    for(int i=0; i<n; i++){
+    while(n--){
         int x;
         cin >> x;
 
-        for(int j=0; j<x; j++){
-            cout << s << endl;
+        for(int i=0; i<x; i++){
+            cout << s;
         }
+        cout << endl;
     }
 
   return 0;
