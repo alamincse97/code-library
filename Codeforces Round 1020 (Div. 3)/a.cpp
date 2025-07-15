@@ -13,15 +13,22 @@ int main()
     
     while(t--){
         int n;
+        string s;
+
         cin >> n;
+        cin >> s;
 
-        vector<int> a(n);
+        int count_1 = 0;
 
-        for(int i = 0; i<n; i++){
-            cin >> a[i];
+        for(char ch : s){
+            if(ch == '1') count_1++;
         }
 
-        
+        int count_0 = n - count_1;
+
+        int total_ones = (n - 1) * count_1 + count_0;
+
+        cout << total_ones << endl;
     }
 
 
