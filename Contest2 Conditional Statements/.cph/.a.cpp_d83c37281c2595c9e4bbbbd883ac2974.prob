@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"d:\\All Project\\code-library\\Contest2 Conditional Statements\\a.cpp","tests":[{"id":1753014162404,"input":"1 2\n","output":"a < b\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\Contest2 Conditional Statements\\a.cpp","group":"local","local":true}
