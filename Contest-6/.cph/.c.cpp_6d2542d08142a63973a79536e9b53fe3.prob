@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"d:\\All Project\\code-library\\Contest-6\\c.cpp","tests":[{"id":1754968805266,"input":"8 5\n10 9 8 7 7 7 5 5\n","output":"6\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\Contest-6\\c.cpp","group":"local","local":true}
