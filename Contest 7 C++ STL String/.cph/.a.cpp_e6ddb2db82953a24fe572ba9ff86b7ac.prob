@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"d:\\All Project\\code-library\\Contest 7 C++ STL String\\a.cpp","tests":[{"id":1755098897368,"input":"3\nTakahashi\nAoki\nSnuke\n","output":"Snuke\nAoki\nTakahashi\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\Contest 7 C++ STL String\\a.cpp","group":"local","local":true}
