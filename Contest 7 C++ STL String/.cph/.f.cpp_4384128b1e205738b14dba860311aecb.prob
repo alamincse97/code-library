@@ -1,0 +1,1 @@
+{"name":"Local: f","url":"d:\\All Project\\code-library\\Contest 7 C++ STL String\\f.cpp","tests":[{"id":1755102627811,"input":"5\n24\n70\n3\n55\n48\n","output":"aav\nrzz\naaa\nczz\nauz\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\Contest 7 C++ STL String\\f.cpp","group":"local","local":true}
