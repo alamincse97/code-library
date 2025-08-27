@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"d:\\All Project\\code-library\\Starters 201 (Rated)\\b.cpp","tests":[{"id":1756307069316,"input":"3\n1 5\n5 5\n10 1","output":"3\n6\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\Starters 201 (Rated)\\b.cpp","group":"local","local":true}
