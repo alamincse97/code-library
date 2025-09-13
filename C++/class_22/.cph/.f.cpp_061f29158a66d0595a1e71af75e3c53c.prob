@@ -1,0 +1,1 @@
+{"name":"Local: f","url":"d:\\All Project\\code-library\\C++\\class_22\\f.cpp","tests":[{"id":1757752004669,"input":"3\n1 3 2 3 3 2 2 1 1 1 2\n","output":"3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\C++\\class_22\\f.cpp","group":"local","local":true}
