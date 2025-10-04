@@ -1,0 +1,1 @@
+{"name":"Local: drawSquare","url":"d:\\All Project\\code-library\\codeforces\\drawSquare.cpp","tests":[{"id":1741705008322,"input":"2\n2 2 2 2\n1 2 3 4\n","output":"Yes\nNo\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\codeforces\\drawSquare.cpp","group":"local","local":true}

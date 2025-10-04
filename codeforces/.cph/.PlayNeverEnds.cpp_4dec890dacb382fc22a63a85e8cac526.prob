@@ -1,1 +1,0 @@
-{"name":"Local: PlayNeverEnds","url":"d:\\All Project\\code-library\\codeforces\\PlayNeverEnds.cpp","tests":[{"id":1741324822337,"input":"4\n1\n2\n333\n1000000000\n","output":"YES\nNO\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\codeforces\\PlayNeverEnds.cpp","group":"local","local":true}

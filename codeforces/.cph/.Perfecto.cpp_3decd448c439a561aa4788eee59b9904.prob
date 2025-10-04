@@ -1,1 +1,0 @@
-{"name":"Local: Perfecto","url":"d:\\All Project\\code-library\\codeforces\\Perfecto.cpp","tests":[{"id":1741340227921,"input":"3\n1\n4\n5\n","output":"-1\n2 4 1 3\n5 1 4 3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\codeforces\\Perfecto.cpp","group":"local","local":true}
