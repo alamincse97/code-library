@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"d:\\All Project\\code-library\\Batch-06\\Module_01_Contest_02\\b.cpp","tests":[{"id":1761476164381,"input":"1 2\n","output":"a < b\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\All Project\\code-library\\Batch-06\\Module_01_Contest_02\\b.cpp","group":"local","local":true}
